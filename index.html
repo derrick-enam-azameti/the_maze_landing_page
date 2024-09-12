@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Maze - A 3D Adventure Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>The Maze</h1>
+            </div>
+            <ul>
+                <li><a href="#features-highlight">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#play">Download</a></li>
+                <li><a href="#social">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="intro-text">
+            <h2>Welcome to The Maze</h2>
+            <p>A challenging 3D adventure game where your objective is to escape the labyrinth!</p>
+            <a href="https://github.com/derrick-enam-azameti/the_maze" target="_blank" class="cta-btn">Download</a>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section id="features-highlight" class="features-highlight">
+        <h2>Key Features of The Maze</h2>
+        <div class="feature-list">
+            <!-- Feature 1 -->
+            <div class="feature-item">
+                <img src="f1-image.gif" alt="Feature 1 Animation" class="feature-img">
+                <div class="feature-info">
+                    <h3>Challenging Mazes</h3>
+                    <p>Navigate through a series of increasingly difficult mazes that test your logic and problem-solving skills. Each level brings new traps and puzzles to solve.</p>
+                </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="feature-item">
+                <img src="f2-image.gif" alt="Feature 2 Animation" class="feature-img">
+                <div class="feature-info">
+                    <h3>Unique Traps & Puzzles</h3>
+                    <p>Watch out for hidden traps and mind-bending puzzles. Every maze contains a set of obstacles that requires quick thinking and strategy to overcome.</p>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="feature-item">
+                <img src="f3-image.gif" alt="Feature 3 Animation" class="feature-img">
+                <div class="feature-info">
+                    <h3>Retro Pixel Art Style</h3>
+                    <p>Immerse yourself in a retro-inspired world with beautifully designed pixel art graphics, blending nostalgic charm with modern gameplay mechanics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About The Maze</h2>
+            <p>
+                The Maze was inspired by my love for classic puzzle games and the challenge of creating something that blends nostalgia with modern gameplay. As a fan of old-school arcade games, I wanted to design a game that captures the essence of those early adventures while adding a new twist.
+            </p>
+            <p>
+                The journey started in early 2024 when I began working on the game's concept and design. Over the months, I developed the core mechanics and pixel art style, drawing from my experiences and the inspiration from iconic maze games. This project has been a rewarding challenge, allowing me to apply my skills in game development and design.
+            </p>
+            <p>
+                This project is part of my portfolio for <a href="https://www.alxafrica.com" target="_blank">ALX Software Engineering programme</a>, where I have gained valuable skills in software development. You can find the complete source code and additional details on the <a href="https://github.com/derrick-enam-azameti/the_maze" target="_blank">GitHub repository</a>.
+            </p>
+            <div class="developer">
+                <h3>The Developer</h3>
+                <p>Hello! I’m Derrick, the developer behind The Maze. I’ve always been fascinated by game design and wanted to create a project that combines my passion for puzzles with my technical skills. If you'd like to connect or learn more about my work, feel free to reach out through the links below.</p>
+                <div class="social-links2">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/derrick-enam-azameti/" target="_blank" style="text-decoration: none;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/derrick-enam-azameti" target="_blank" style="text-decoration: none;">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/derrick_azameti" target="_blank" style="text-decoration: none;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="play" class="play-now">
+        <h2>Play The Maze</h2>
+        <a href="https://github.com/derrick-enam-azameti/the_maze" target="_blank" class="cta-btn">Download</a>
+        <a href="https://github.com/derrick-enam-azameti/the_maze" target="_blank" class="cta-btn">View on GitHub</a>
+    </section>
+
+    <section id="social" class="social-links">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/derrick-enam-azameti/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/derrick-enam-azameti" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/derrick_azameti" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Maze Game by Derrick E. Azameti. Connect with me on <a href="https://github.com/derrick-enam-azameti" target="_blank">GitHub</a>.</p>
+    </footer>
+
+    <script>
+        ScrollReveal().reveal('.intro-text', { duration: 1000, origin: 'left', distance: '50px' });
+        ScrollReveal().reveal('.features-highlight', { duration: 1000, origin: 'right', distance: '50px' });
+        ScrollReveal().reveal('.play-now', { duration: 1000, origin: 'top', distance: '50px' });
+        ScrollReveal().reveal('.social-links', { duration: 1000, origin: 'bottom', distance: '50px' });
+    </script>
+</body>
+</html>
